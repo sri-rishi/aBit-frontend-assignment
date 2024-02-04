@@ -1,0 +1,63 @@
+.releases-section {
+    margin-top: 2rem;
+    height: 52rem;
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.releases-details-box {
+    width: 90%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.releases-details-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.video-card-list {
+    width: 90%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.releases-details-subtext {
+    font-size: 1rem;
+    font-style: italic;
+    color: #565656;
+}
+
+.releases-details {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.releases-details-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-left: 0.5px solid #7A7A7A;
+    max-width: 6rem;
+    padding-left: 1rem;
+    font-size: 14px;
+    color: #696969;
+}
+
+.releases-details-item-title {
+    font-weight: 700;
+    color: #565656;
+}

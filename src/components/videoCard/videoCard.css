@@ -1,0 +1,52 @@
+.video-card {
+    width: 17rem;
+    height: 19rem;
+    background-image: url("../../assets/images/video-card-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.video-card-title {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: -1px;
+}
+
+.video-card-details {
+    position: absolute;
+    bottom: 1rem;
+    left: 1.5rem;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+   
+}
+
+.video-card-details-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.video-card-details-title {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+}

@@ -4,6 +4,7 @@ import HeroSection from "./heroSection/HeroSection";
 import ReleasesSection from "./releasesSection/ReleasesSection";
 import AddVideoCard from "./addVideoCard/AddVideoCard";
 import VideoCard from "./videoCard/VideoCard";
+import Footer from "./footer/Footer";
 
 export {
     Button,
@@ -11,5 +12,6 @@ export {
     HeroSection,
     ReleasesSection,
     AddVideoCard,
-    VideoCard
+    VideoCard,
+    Footer
 }

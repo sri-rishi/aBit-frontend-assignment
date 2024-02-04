@@ -1,0 +1,9 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cover-band-box {
+    margin-top: -2rem;
+}

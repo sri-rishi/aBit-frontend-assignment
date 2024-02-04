@@ -1,0 +1,28 @@
+.add-video-card {
+    width: 17rem;
+    height: 19rem;
+    background-color: #EDEDED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 1.5rem;
+    color: rgba(149, 149, 149, 0.57);
+    font-size: 2rem;
+}
+
+.add-video-card-text {
+    width: 85%;
+    position: absolute;
+    bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+    color: #A0A0A0;
+}
+

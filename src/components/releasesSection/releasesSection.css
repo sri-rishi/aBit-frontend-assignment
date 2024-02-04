@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     gap: 4rem;
+    border-bottom: 1px solid var(--dark-whitesmoke-color);
 }
 
 .releases-details-box {
@@ -37,7 +38,7 @@
 .releases-details-subtext {
     font-size: 1rem;
     font-style: italic;
-    color: #565656;
+    color: var(--dark-gray-color);
 }
 
 .releases-details {
@@ -50,14 +51,14 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    border-left: 0.5px solid #7A7A7A;
+    border-left: 0.5px solid var(--light-gray-color);
     max-width: 6rem;
     padding-left: 1rem;
     font-size: 14px;
-    color: #696969;
+    color: var(--gray-color);
 }
 
 .releases-details-item-title {
     font-weight: 700;
-    color: #565656;
+    color: var(--dark-gray-color);
 }

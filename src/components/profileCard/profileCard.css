@@ -20,7 +20,7 @@
     width: 70%;
     height: 100%;
     border-radius: 1.5rem 0 0 1.5rem;
-    border-right: 1px solid #313131;
+    border-right: 1px solid var(--darker--gray-color);
 }
 
 .profile-card-pic {
@@ -49,7 +49,7 @@
 .profile-sub-title {
     font-size: 14px;
     font-weight: 400;
-    color: #696969;
+    color: var(--gray-color);
 }
 
 .profile-bio {
@@ -59,7 +59,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 1.4rem;
-    color: #696969;
+    color: var(--gray-color);
 }
 
 .profile-bio-title {
@@ -70,8 +70,8 @@
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    background: #313131;
-    border: 1px solid #000000;
+    background: var(--darker--gray-color);
+    border: 1px solid var(--black-color);
     border-radius: 4px;
 }
 
@@ -79,8 +79,8 @@
     width: 50%;
     font-size: 14px;
     font-weight: 400;
-    color: #313131;
-    border: 1px solid #000000;
+    color: var(--darker--gray-color);
+    border: 1px solid var(--black-color);
     border-radius: 4px;
     padding: 4px 8px;
 }

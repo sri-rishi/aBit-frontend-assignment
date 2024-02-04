@@ -1,7 +1,7 @@
 .add-video-card {
     width: 17rem;
     height: 19rem;
-    background-color: #EDEDED;
+    background-color: var(--whitesmoke-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,6 +23,6 @@
     font-weight: 400;
     line-height: 1.4rem;
     letter-spacing: 1px;
-    color: #A0A0A0;
+    color: var(--lightest-gray-color);
 }
 

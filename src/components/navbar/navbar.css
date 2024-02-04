@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #000000;
+    border: 1px solid var(--black-color);
     background-image: url("../../assets/images/navbar-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,9 +25,9 @@
 .share-btn {
     padding: 1.1rem 1.3rem;
     border-radius: 3.7rem;
-    border: 2px solid #764CC2;
+    border: 2px solid var(--purple-color);
     background: transparent;
-    color: #764CC2;
+    color: var(--purple-color);
     font-size: 12px;
 }
 
@@ -39,7 +39,7 @@
 .profile-pic-box {
     width: 2rem;
     height: 2rem;
-    border: 1px solid #000000;
+    border: 1px solid var(--black-color);
     border-radius: 50%;
 }
 

@@ -7,8 +7,25 @@
     margin: 0;
     padding:0;
 }
+
+
 html {
     width: 100%;
+}
+
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --gray-color :#696969;
+    --purple-color: #764CC2;
+    --whitesmoke-color: #EDEDED;
+    --lightest-gray-color: #A0A0A0;
+    --lighter-gray-color: #9F9D9D;
+    --darkest-gray-color: #262626FC;
+    --darker-gray-color: #313131;
+    --dark-whitesmoke-color: #D8D8D8;
+    --dark-gray-color: #565656;
+    --light-gray-color: #7A7A7A;
 }
 
 a {

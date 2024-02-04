@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
-import { HeroSection, Navbar } from './components';
+import { HeroSection, Navbar, ReleasesSection } from './components';
 
 function App() {
 
@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <Navbar />
       <HeroSection />
+      <ReleasesSection />
     </div>
   );
 }

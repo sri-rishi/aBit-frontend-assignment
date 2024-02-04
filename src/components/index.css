@@ -1,3 +1,6 @@
 @import "./navbar/navbar.css";
 @import "./heroSection/heroSection.css";
 @import "./profileCard/profileCard.css";
+@import "./releasesSection/releasesSection.css";
+@import "./addVideoCard/addVideoCard.css";
+@import "./videoCard/videoCard.css";

@@ -1,0 +1,45 @@
+@import "./components/index.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+html {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+  
+h1, p {
+    margin-block-start: 0;
+    margin-block-end: 0; 
+}
+  
+ul {
+    list-style: none;
+}
+  
+  
+img {
+    width: 100%;
+    object-fit: cover;
+}
+  
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+
+.btn-border-none-bg-trans{
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

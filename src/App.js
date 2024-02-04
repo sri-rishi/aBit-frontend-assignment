@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
-import { HeroSection, Navbar, ReleasesSection } from './components';
+import { Footer, HeroSection, Navbar, ReleasesSection } from './components';
 
 function App() {
 
@@ -13,6 +13,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <ReleasesSection />
+      <Footer />
     </div>
   );
 }

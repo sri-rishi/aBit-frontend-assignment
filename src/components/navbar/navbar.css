@@ -1,0 +1,53 @@
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    background-image: url("../../assets/images/navbar-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5rem 4rem;
+}
+
+.title {
+    padding-left: 4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-btn-box {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.share-btn {
+    padding: 1.1rem 1.3rem;
+    border-radius: 3.7rem;
+    border: 2px solid #764CC2;
+    background: transparent;
+    color: #764CC2;
+    font-size: 12px;
+}
+
+.nav-icon-btn {
+    font-size: 1.5rem;
+    opacity: 32%;
+}
+
+.profile-pic-box {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    border-radius: inherit;
+}
+
+.down-icon-btn {
+    font-size: 1.75rem;
+    opacity: 40%;
+}
